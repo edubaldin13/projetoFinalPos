@@ -7,7 +7,6 @@ namespace ProjetoFinalPos.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-[Authorize]  // Requer autenticação JWT
 public class ClienteController : ControllerBase
 {
     private readonly ClienteService _service;
