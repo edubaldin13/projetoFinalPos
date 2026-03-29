@@ -1,3 +1,5 @@
+using ProjetoFinalPos.Models.Entities;
+
 namespace ProjetoFinalPos.Repositories;
 
 public interface IClienteRepository
